@@ -1,0 +1,8 @@
+/* CSS riêng của module-profile */
+.profile-card { border-color: var(--line); }
+.avatar {
+  width: 88px; height: 88px; border-radius: 50%; overflow: hidden; flex: 0 0 88px;
+  background: var(--ink); color: #fff; display: flex; align-items: center; justify-content: center;
+}
+.avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.avatar-fallback { font-size: 2rem; font-weight: 700; }
