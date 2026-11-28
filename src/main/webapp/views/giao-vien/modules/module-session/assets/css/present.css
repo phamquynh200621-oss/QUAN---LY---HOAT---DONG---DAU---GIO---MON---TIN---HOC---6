@@ -1,0 +1,20 @@
+/* Màn hình trình chiếu: chữ lớn, tương phản cao để cả lớp đọc được từ xa */
+.present-body { background: #0f1f2e; color: #f4f7f9; min-height: 100vh; }
+.present { max-width: 1400px; margin: 0 auto; padding: 2rem 2.5rem; }
+.present-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; border-bottom: 3px solid var(--chalk); padding-bottom: 1.25rem; margin-bottom: 2rem; }
+.present-title { font-size: clamp(1.75rem, 3.5vw, 3rem); font-weight: 700; line-height: 1.2; margin: 0 0 .5rem; }
+.present-meta { color: #b6c6d3; font-size: 1.25rem; margin: 0; }
+.present-timer-wrap { text-align: right; flex: 0 0 auto; }
+.present-timer { font-size: clamp(2.5rem, 6vw, 5rem); font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1; }
+.present-timer.is-low { color: var(--chalk); }
+.present-timer.is-over { color: #ff8c82; }
+.present-status { font-size: 1.15rem; color: #b6c6d3; margin-top: .35rem; }
+.present-wait { font-size: 1.75rem; color: #b6c6d3; }
+.present-question { font-size: clamp(1.5rem, 3.2vw, 2.75rem); font-weight: 600; line-height: 1.35; margin-bottom: 1.5rem; white-space: pre-line; }
+.present-position { color: var(--chalk); font-size: 1.15rem; font-weight: 600; margin-bottom: .75rem; }
+.present-answers { list-style: none; padding: 0; margin: 0; display: grid; gap: .9rem; }
+.present-answer { display: flex; gap: 1rem; align-items: baseline; font-size: clamp(1.25rem, 2.4vw, 2rem); padding: .9rem 1.25rem; border: 2px solid #35506a; border-radius: .6rem; }
+.present-answer.is-correct { border-color: #5bd68b; background: rgba(91, 214, 139, .14); }
+.present-letter { font-weight: 700; color: var(--chalk); flex: 0 0 auto; }
+.present-explain { margin-top: 1.5rem; font-size: 1.35rem; color: #d3dee7; }
+.present-content { font-size: clamp(1.25rem, 2.4vw, 2rem); line-height: 1.55; white-space: pre-line; }
